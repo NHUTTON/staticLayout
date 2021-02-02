@@ -1,0 +1,604 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Faustina', serif;
+}
+
+.bgImage {
+    background-image: linear-gradient(rgb(0,0,0, .2), rgb(0,0,0,1)), url(https://images.ctfassets.net/usf1vwtuqyxm/3DrUrHzGv0D3qy1FCIFn80/baadf3c111dd6329716cc5808694f5aa/Dumbledore_funko_homepage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 64em;
+    z-index: -10;
+}
+
+header {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.topBar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 5.5em;
+        width:100%;
+        background-color:transparent;
+        transition: .5s;
+        border-bottom: .1px solid rgba(255,255,255,.5);
+        z-index: 1;
+}
+
+#topLine {
+    font-size: .8em;
+    padding-top: 3.9em; 
+}
+
+
+.topBar:hover {
+    background-color: #242633;
+    z-index: 1;
+}
+
+.loginButton {
+    background-color: #6B63B5;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 65em;
+    left: 120em;
+    margin: auto;
+    height: 2em;
+    width: 5em;
+    border-radius: 10%;
+    font-family: 'Potta One', cursive;
+    transition: 0.5s;
+}
+
+.loginButton:hover{
+    background-color: #6b3f91;
+    cursor: pointer;
+}
+
+.loginButtonA {
+    text-decoration: none;
+    font-family: 'Potta One', cursive;
+    color: white;
+}
+
+#lineOne {
+    background-color: white;
+
+    height: 1.3em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 56.4em;
+    left: 0;
+    margin: auto;
+}
+
+#lineTwo {
+    background-color: white;
+
+    height: 1.25em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 56.3em;
+    left: .5em;
+    margin: auto;
+    transform: rotate(12deg);
+    z-index: 1;
+}
+
+
+   #lineThree { background-color: white;
+
+    height: 1.25em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: .5em;
+    bottom: 56.3em;
+    left: 0;
+    margin: auto;
+    transform: rotate(-12deg);
+    z-index: 1;
+}
+
+#lineFour {
+    background-color: white;
+
+    height: 1.2em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 56em;
+    left: 1em;
+    margin: auto;
+    transform: rotate(25deg);
+    z-index: 1;
+}
+
+#lineFive {
+    background-color: white;
+
+    height: 1.2em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 1em;
+    bottom: 56em;
+    left: 0;
+    margin: auto;
+    transform: rotate(-25deg);
+    z-index: 1;
+}
+
+#lineSix{
+    background-color: white;
+
+    height: 1.2em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 55.5em;
+    left: 1.5em;
+    margin: auto;
+    transform: rotate(50deg);
+    z-index: 1;
+}
+
+#lineSeven{
+    background-color: white;
+
+    height: 1.2em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 1.5em;
+    bottom: 55.5em;
+    left: 0;
+    margin: auto;
+    transform: rotate(-50deg);
+    z-index: 1;
+}
+
+#lineEight {
+    background-color: white;
+
+    height: 1.2em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 54.9em;
+    left: 1.9em;
+    margin: auto;
+    transform: rotate(67deg);
+    z-index: 1;
+}
+
+#lineNine {
+    background-color: white;
+
+    height: .05em;
+    width: 1.3em;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 54.2em;
+    left: 1.88em;
+    margin: auto;
+    z-index: 1;
+}
+
+#lineTen {
+    background-color: white;
+
+    height: .05em;
+    width: 1.3em;
+
+    position: fixed;
+    top: 0;
+    right: 1.73em;
+    bottom: 54.2em;
+    left: 0;
+    margin: auto;
+    z-index:1;
+}
+
+#lineTwelve {
+    background-color: white;
+
+    height: .05em;
+    width: .25em;
+
+    position: fixed;
+    top: 0;
+    right: .3em;
+    bottom: 54.3em;
+    left: 0;
+    margin: auto;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+#lineThirteen {
+    background-color: white;
+
+    height: .05em;
+    width: .25em;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 54.3em;
+    left: .35em;
+    margin: auto;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+#lineFourteen {
+    background-color: white;
+
+    height: 1.2em;
+    width: .05em;
+
+    position: fixed;
+    top: 0;
+    right: 1.9em;
+    bottom: 54.9em;
+    left: 0;
+    margin: auto;
+    transform: rotate(-67deg);
+}
+
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    position: sticky;
+    display: inline-flex;
+    padding: 1em;
+}
+.navBar {
+    position: fixed;
+    text-align: center;
+    top: 5.55em;
+    background-color: transparent;
+    height: 3.2em;
+    width: 100%;
+    transition: 0.5s;
+    transition: .5;
+    z-index: 1;
+}
+
+.navList {
+    color: white;
+    text-decoration: none;
+    font-family: "Sofia Pro", serif;
+}
+
+.navList:hover {
+    text-decoration: underline;
+}
+
+.navBar:hover {
+    background-color: #10141B;
+}
+
+.centerC {
+    position: absolute;
+    background-color: transparent;
+    height: 15em;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 26em;
+    left: 0;
+}
+
+#centerText {
+    text-align: center;
+    font-size: 4.3em;
+    display:  block;
+    font-family: "Bluu Next", serif;
+    color: white;      
+}
+
+#subText {
+    position: relative;
+    text-align: center;
+    font-size: 2,5em;
+    color: white;   
+}
+
+.sortDiv {
+    background-color: transparent;
+    position: relative;
+    height: 5em;
+    display: flex;
+}
+.getSortedButton {
+     background-color: #6B63B5;
+     border:white;
+     height: 3.4em;
+     width: 21em;
+     border-radius: 40em;
+     font-family: 'Potta One', cursive;
+     font-size: 1em;
+    transition: all 0.5s;
+    margin: 0 0 0 49em
+}
+
+.getSortedButtonA {
+    text-decoration: none;
+    color: white;
+}
+.getSortedButton:hover {
+    background-color: #6b3f91;
+    cursor: pointer;
+}
+
+.diamondC {
+    background-color: transparent;
+    height: 2em;
+    width: 4em;
+    position: relative;
+    margin: 2em 0 0 57.3em;
+}
+
+.diamond{
+    background-color: transparent;
+    height:1.2em;
+    width: 1.2em;
+    margin: 0 auto;
+    position: relative;
+    transform: rotate(45deg);
+    border: 1px solid white;
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+    animation-name: slidedown;        
+}
+
+@keyframes slidedown {
+    0% {background-color: transparent; top:0px;}
+    100%{background-color: transparent; top:100%}
+}
+
+
+.slideShow {
+    background-color:transparent;
+    height: 20em;
+    width: 100%;
+    position: relative;
+    margin: none;
+    padding-top: 7em;
+    padding-left: 20em;
+    display: flex;
+    font-family: Butler, serif;
+}
+
+.slides {
+    padding: 0 0 0 3em;
+    width: 22em;
+    height: 12em;
+    object-position: center;
+}
+
+.slideTitle1 {
+    position: absolute;
+    top: 18em;
+    right: 0;
+    bottom: 0;
+    left: 31.4em;
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.slideText1 {
+    position: absolute;
+    top: 8.3em;
+    right:0;
+    bottom: 0;
+    left: 13em;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.slideTitle2 {
+    position: absolute;
+    top: 18em;
+    right:0;
+    bottom: 0;
+    left: 62em;
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.slideText2{
+    position: absolute;
+    top: 8.3em;
+    right:0;
+    bottom: 0;
+    left: 25.6em;
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.slideTitle3 {
+    position: absolute;
+    top: 18.2em;
+    right:0;
+    bottom: 0;
+    left: 92em;
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.slideText3 {
+    position: absolute;
+    top: 8.3em;
+    right:0;
+    bottom: 0;
+    left: 38em;
+    margin:auto;
+    text-decoration: none;
+    color: white;
+}
+
+.bgImage2 {
+    height: 70em;
+     background: linear-gradient(rgb(0,0,0,1), rgb(1,43,63,.3)), url(https://cdn.pixabay.com/photo/2015/11/07/11/02/milky-way-1030765_960_720.jpg);
+     background-size: cover;
+ }
+
+.slideBar {
+    height: 3em;
+    width: 64em;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    margin: 0 0 0 25em;
+}
+
+.slideShowB1 {
+    height:2.3em;
+    width: 2.3em;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.slideShowB2 {
+    height:2.3em;
+    width: 2.3em;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.slideArrows {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.slideArrows:hover {
+    cursor: pointer;
+}
+
+.slides2 {
+    height:.35em;
+    width: .35em; 
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+ 
+#whiteSlide {
+    height:.35em;
+    width: .35em; 
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+
+.slideShowLine {
+    height: .05em;
+    width: 47em;
+    background-color: gray;
+    position: relative;
+    top: 1.2em;
+}
+
+.collectionC {
+    height: 35em;
+    width: auto;
+    margin-top: 7em;
+    background-image: linear-gradient(to right, rgb(0,0,0, .4), rgb(0,0,0,0)), url(https://images.ctfassets.net/usf1vwtuqyxm/7DXrKz86GmfatXRUeE24nH/d498b4c5a8916264199d40dc6549d145/Promo-Module_Normal-Width_06.jpg?w=1008&fm=webp);
+    background-repeat: no-repeat;
+    background-position-x: 42em;
+}
+
+#photoText {
+    color: white;
+    font-family: "Mason Sans OT", serif;
+    padding:11.5em 0 0 53em;
+}
+
+
+#photoText2 {
+    color: white;
+    font-family: "Mason Sans OT", serif;
+    font-size: 4em;
+    padding: 0 17em 0 0;
+    text-align: right;
+}
+
+#photoText3{
+    color: white;
+    font-family: "Mason Sans OT", serif;
+    padding: 1em 68em 0 0;
+    text-align: right;
+}
+
+.exploreButton {
+    background-color: #6B63B5;
+    transition: .5s;
+    height: 3.8em;
+    width: 19em;
+    border-radius: 40em;
+    font-family: 'Potta One', cursive;
+    margin: 2em 0 0 42.5em;
+    border: white;
+}
+
+.exploreButton:hover {
+    background-color: #6b3f91;
+    cursor: pointer;
+}
+.exploreButtonA {
+    text-decoration: none;
+    color: white;
+}
