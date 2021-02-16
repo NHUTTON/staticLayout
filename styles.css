@@ -53,7 +53,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 65em;
+    bottom: 59em;
     left: 120em;
     margin: auto;
     height: 2em;
@@ -83,7 +83,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 56.4em;
+    bottom: 52.4em;
     left: 0;
     margin: auto;
 }
@@ -97,7 +97,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 56.3em;
+    bottom: 52.3em;
     left: .5em;
     margin: auto;
     transform: rotate(12deg);
@@ -113,7 +113,7 @@ header {
     position: fixed;
     top: 0;
     right: .5em;
-    bottom: 56.3em;
+    bottom: 52.3em;
     left: 0;
     margin: auto;
     transform: rotate(-12deg);
@@ -129,7 +129,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 56em;
+    bottom: 52em;
     left: 1em;
     margin: auto;
     transform: rotate(25deg);
@@ -145,7 +145,7 @@ header {
     position: fixed;
     top: 0;
     right: 1em;
-    bottom: 56em;
+    bottom: 52em;
     left: 0;
     margin: auto;
     transform: rotate(-25deg);
@@ -161,7 +161,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 55.5em;
+    bottom: 51.5em;
     left: 1.5em;
     margin: auto;
     transform: rotate(50deg);
@@ -177,7 +177,7 @@ header {
     position: fixed;
     top: 0;
     right: 1.5em;
-    bottom: 55.5em;
+    bottom: 51.5em;
     left: 0;
     margin: auto;
     transform: rotate(-50deg);
@@ -193,7 +193,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 54.9em;
+    bottom: 50.9em;
     left: 1.9em;
     margin: auto;
     transform: rotate(67deg);
@@ -209,7 +209,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 54.2em;
+    bottom: 50.2em;
     left: 1.88em;
     margin: auto;
     z-index: 1;
@@ -224,7 +224,7 @@ header {
     position: fixed;
     top: 0;
     right: 1.73em;
-    bottom: 54.2em;
+    bottom: 50.2em;
     left: 0;
     margin: auto;
     z-index:1;
@@ -239,7 +239,7 @@ header {
     position: fixed;
     top: 0;
     right: .3em;
-    bottom: 54.3em;
+    bottom: 50.3em;
     left: 0;
     margin: auto;
     transform: rotate(-45deg);
@@ -255,7 +255,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 54.3em;
+    bottom: 50.3em;
     left: .35em;
     margin: auto;
     transform: rotate(45deg);
@@ -271,7 +271,7 @@ header {
     position: fixed;
     top: 0;
     right: 1.9em;
-    bottom: 54.9em;
+    bottom: 50.9em;
     left: 0;
     margin: auto;
     transform: rotate(-67deg);
